@@ -652,7 +652,18 @@ def generate_build_ninja(
     ###
     # Build rules
     ###
-    compiler_path = compilers / "$mw_version"
+    flat_compilers = False
+    if config.compilers_path is not None:
+        versioned_mwcc = compilers / str(config.linker_version) / "mwcceppc.exe"
+        flat_mwcc = compilers / "mwcceppc.exe"
+        flat_mwld = compilers / "mwldeppc.exe"
+        flat_compilers = (
+            os.path.exists(flat_mwcc)
+            and os.path.exists(flat_mwld)
+            and not os.path.exists(versioned_mwcc)
+        )
+
+    compiler_path = compilers if flat_compilers else (compilers / "$mw_version")
 
     # MWCC
     mwcc = compiler_path / "mwcceppc.exe"
@@ -1168,12 +1179,23 @@ def generate_build_ninja(
 
         # Check if all compiler versions exist
         for mw_version in used_compiler_versions:
-            mw_path = compilers / mw_version / "mwcceppc.exe"
+            if flat_compilers:
+                if len(used_compiler_versions) > 1:
+                    sys.exit(
+                        "Flat compiler layout only supports one compiler version in the build"
+                    )
+                mw_path = compilers / "mwcceppc.exe"
+            else:
+                mw_path = compilers / mw_version / "mwcceppc.exe"
             if config.compilers_path and not os.path.exists(mw_path):
                 sys.exit(f"Compiler {mw_path} does not exist")
 
         # Check if linker exists
-        mw_path = compilers / str(config.linker_version) / "mwldeppc.exe"
+        mw_path = (
+            compilers / "mwldeppc.exe"
+            if flat_compilers
+            else (compilers / str(config.linker_version) / "mwldeppc.exe")
+        )
         if config.compilers_path and not os.path.exists(mw_path):
             sys.exit(f"Linker {mw_path} does not exist")
 

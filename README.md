@@ -42,6 +42,45 @@ Goldeneye-Rogue-Agent-Decompil-GC/
 
 ## Local Setup
 
+### Linux + Wine + Compiler Toolchains
+
+This project supports Linux builds with Metrowerks GameCube tools executed through Wine.
+
+Required local toolchain layout:
+
+```text
+tools/
+  mwcc_compiler/
+    mwcceppc.exe
+    mwldeppc.exe
+    mwasmeppc.exe
+    ...
+  prodg/
+    ngccc.exe
+    ngcld.exe
+    ngcasm.exe
+    ...
+```
+
+Install Wine on Linux:
+
+```bash
+# Debian / Ubuntu
+sudo apt update
+sudo apt install -y wine
+
+# Arch Linux
+sudo pacman -Sy --needed wine
+```
+
+Notes:
+
+- `configure.py` auto-detects `tools/mwcc_compiler` when present.
+- On Linux, the build defaults to using `wine` as compiler wrapper.
+- You can override paths manually with:
+  - `--compilers <path>`
+  - `--wrapper <binary>`
+
 Expected local game path:
 
 ```text

@@ -5,7 +5,7 @@
 import argparse
 from pathlib import Path
 
-from tools.project import ProjectConfig, calculate_progress, generate_build, is_windows
+from tools.project import Object, ProjectConfig, calculate_progress, generate_build, is_windows
 
 
 DEFAULT_VERSION = 0
@@ -72,17 +72,26 @@ def make_config(args: argparse.Namespace) -> ProjectConfig:
     # Apply arguments
     config.build_dir = args.build_dir
     local_dtk = Path("tools") / "dtk" / "dtk-linux-x86_64"
+    local_compilers_structured = Path("tools") / "compilers"
+    local_compilers_flat = Path("tools") / "mwcc_compiler"
     config.dtk_path = args.dtk if args.dtk is not None else (local_dtk if local_dtk.is_file() else None)
     config.objdiff_path = args.objdiff
     config.binutils_path = args.binutils
-    config.compilers_path = args.compilers
+    if args.compilers is not None:
+        config.compilers_path = args.compilers
+    elif (local_compilers_structured / "GC" / "1.2.5n" / "mwcceppc.exe").is_file():
+        config.compilers_path = local_compilers_structured
+    elif (local_compilers_flat / "mwcceppc.exe").is_file():
+        config.compilers_path = local_compilers_flat
+    else:
+        config.compilers_path = None
     config.generate_map = args.map
     config.non_matching = args.non_matching
     config.sjiswrap_path = args.sjiswrap
     config.ninja_path = args.ninja
     config.progress = args.progress
     if not is_windows():
-        config.wrapper = args.wrapper
+        config.wrapper = args.wrapper if args.wrapper is not None else Path("wine")
 
     # Avoid accidental assembly override in matching builds.
     if not config.non_matching:
@@ -123,8 +132,40 @@ def make_config(args: argparse.Namespace) -> ProjectConfig:
     ]
     config.linker_version = "GC/1.2.5n"
 
-    # The source object list is intentionally empty until first objects are added.
-    config.libs = []
+    cflags_base = [
+        "-nodefaults",
+        "-proc gekko",
+        "-align powerpc",
+        "-enum int",
+        "-fp hardware",
+        "-Cpp_exceptions off",
+        "-O4,p",
+        "-inline auto",
+        '-pragma "cats off"',
+        '-pragma "warn_notinlined off"',
+        "-maxerrors 1",
+        "-nosyspath",
+        "-RTTI off",
+        "-fp_contract on",
+        "-str reuse",
+        "-multibyte",
+        "-i include",
+        f"-i build/{config.version}/include",
+        f"-DBUILD_VERSION={version_num}",
+        f"-DVERSION_{config.version}",
+        "-DNDEBUG=1",
+    ]
+
+    config.libs = [
+        {
+            "lib": "main",
+            "mw_version": config.linker_version,
+            "cflags": cflags_base,
+            "objects": [
+                Object(True, "main/main_bootstrap.c"),
+            ],
+        },
+    ]
 
     if args.verbose:
         config.warn_missing_config = True

@@ -39,5 +39,7 @@ compile_commands.json
 
 # Miscellaneous
 *.exe
-tools/mwcc_compiler
+tools/mwcc_compiler/*
 *.log
+tools/prodg/*
+tools/dtk/*

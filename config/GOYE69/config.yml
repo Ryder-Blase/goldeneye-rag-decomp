@@ -6,3 +6,4 @@ hash: 8166561f15be238ab0699dc9e49da7483da3acc1
 symbols: config/GOYE69/symbols.txt
 splits: config/GOYE69/splits.txt
 mw_comment_version: 11
+quick_analysis: true

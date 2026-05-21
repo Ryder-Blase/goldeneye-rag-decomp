@@ -15,7 +15,7 @@ asm/main/main_all.s:
 	.data0      start:0x8003EC20 end:0x8003EC40
 	.data1      start:0x8003EC40 end:0x8003FD00
 	.data2      start:0x8003FD00 end:0x80044C80
-	.bss        start:0x80044C80 end:0x801FE3A0
+	.bss        start:0x80044C80 end:0x801FE390
 	.sdata      start:0x801FE3A0 end:0x801FE6A0
 	.sbss       start:0x801FE6A0 end:0x801FEA40
 	.sdata2     start:0x801FEA40 end:0x801FF440
