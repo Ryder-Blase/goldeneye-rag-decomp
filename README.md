@@ -22,10 +22,10 @@ A legal copy of the game is required to extract local input files.
 
 Coverage is tracked with a real code metric first, then structure metrics.
 
-- **Real decomp coverage (code bytes):** `0.270%`
+- **Real decomp coverage (code bytes):** `23.914%`
   - Formula: source-owned code bytes / total code bytes from `splits.txt` code sections (`.init` + `.text`).
   - Current values:
-    - `484 / 178,976` bytes (currently split across `src/gamemain.cpp`, `src/rtc.cpp`, and `src/system/drivecheck.cpp`).
+    - `42,800 / 178,976` bytes (currently split across `src/gamemain.cpp`, `src/rtc.cpp`, and `src/system/drivecheck.cpp`).
 - **Integration coverage (translation units):** `4.23%`
   - `3 / 71` expected `.c/.cpp` units are integrated in `splits.txt` and link graph.
 - **Inventory coverage (ASM/ELF path presence):** `100%`
