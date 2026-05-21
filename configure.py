@@ -170,6 +170,7 @@ def make_config(args: argparse.Namespace) -> ProjectConfig:
             "cflags": cflags_base,
             "objects": [
                 Object(False, "src/gamemain.cpp", source="gamemain.cpp"),
+                Object(False, "src/rtc.cpp", source="rtc.cpp"),
             ],
         },
     ]

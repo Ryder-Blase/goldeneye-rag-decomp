@@ -14,10 +14,13 @@ asm/main/main_before.s:
 	.text       start:0x800134A0 end:0x80013564
 
 src/gamemain.cpp:
-	.text       start:0x80013564 end:0x800135BC
+	.text       start:0x80013564 end:0x800136DC
+
+src/rtc.cpp:
+	.text       start:0x800136DC end:0x8001371C
 
 asm/main/main_after.s:
-	.text       start:0x800135BC end:0x8003EC20
+	.text       start:0x8001371C end:0x8003EC20
 	.data0      start:0x8003EC20 end:0x8003EC40
 	.data1      start:0x8003EC40 end:0x8003FD00
 	.data2      start:0x8003FD00 end:0x80044C80
