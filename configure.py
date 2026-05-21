@@ -171,6 +171,7 @@ def make_config(args: argparse.Namespace) -> ProjectConfig:
             "objects": [
                 Object(False, "src/gamemain.cpp", source="gamemain.cpp"),
                 Object(False, "src/rtc.cpp", source="rtc.cpp"),
+                Object(False, "src/system/drivecheck.cpp", source="system/drivecheck.cpp"),
             ],
         },
     ]
