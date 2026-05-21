@@ -1,0 +1,84 @@
+# GoldenEye: Rogue Agent (GameCube) Decompilation
+
+A work-in-progress reverse-engineering and preservation project targeting byte-identical reconstruction of GoldenEye: Rogue Agent on GameCube.
+
+## Legal
+
+This repository must not distribute proprietary game assets.
+A legal copy of the game is required to extract local input files.
+
+## Target Version
+
+- `GOYE69` (NTSC-U / USA)
+
+## Project Goals
+
+1. Reconstruct original binaries with exact matching.
+2. Replace assembly progressively with matching C/C++.
+3. Document engine behavior and data structures.
+4. Keep PC-port work separate until matching is complete.
+
+## Repository Structure
+
+```text
+Goldeneye-Rogue-Agent-Decompil-GC/
+  asm/
+    reference/                  # Reference disassembly outputs (read-only)
+  src/                          # Matching source code
+  include/                      # Matching headers
+  config/
+    GOYE69/
+      config.yml
+      splits.txt
+      symbols.txt
+      build.sha1
+  docs/
+  tools/
+  orig/
+    GOYE69/                     # Local extracted game files (ignored)
+      .gitkeep
+  configure.py
+```
+
+## Local Setup
+
+Expected local game path:
+
+```text
+orig/GOYE69/sys/main.dol
+```
+
+Configure and build:
+
+```bash
+python3 configure.py --version GOYE69
+ninja
+```
+
+Download tools only:
+
+```bash
+ninja tools
+```
+
+## Matching Policy
+
+- Matching correctness is always prioritized over style.
+- Avoid modernization and speculative refactors in matching paths.
+- Preserve original ABI-sensitive behavior.
+
+## Documentation
+
+- Project workflow and quickstart: `docs/GOYE69_DECOMP_GUIDE.md`
+- Matching heuristics: `docs/AGENT_MATCHING_TIPS.md`
+- Program structure reversing notes: `docs/PROGRAM_STRUCTURE_REVERSING.md`
+- Full docs index: `docs/README.md`
+
+## Push Safety Checklist
+
+1. Keep `orig/GOYE69` local only (already ignored by `.gitignore`).
+2. Avoid committing generated files (`build/`, `build.ninja`, `objdiff.json`, `compile_commands.json`).
+3. Run:
+   - `python3 configure.py --version GOYE69`
+   - `ninja -n`
+4. Review changes before push.

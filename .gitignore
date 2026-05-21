@@ -1,0 +1,43 @@
+# IDE folders
+.idea/
+.vs/
+.vscode/
+.zed/
+.claude/
+
+# Caches
+__pycache__
+.mypy_cache
+.cache/
+
+# Original files
+orig/**
+!orig/*/
+!orig/*/.gitkeep
+*.dol
+*.rel
+*.elf
+*.o
+*.map
+*.MAP
+
+# Local tool drops
+tools/dtk/
+
+# Build files
+build/
+.ninja_*
+build.ninja
+
+# decompctx output
+ctx.*
+*.ctx
+
+# Generated configs
+objdiff.json
+compile_commands.json
+
+# Miscellaneous
+*.exe
+tools/mwcc_compiler
+*.log

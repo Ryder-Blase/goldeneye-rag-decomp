@@ -1,0 +1,1004 @@
+.include "macros.s"
+
+.section .sdata2, "wa"  # 0x808EC680 - 0x808ED080 ; 0x00000A00
+
+
+.global lbl_808EC680
+lbl_808EC680:
+
+	# ROM: 0x32CA0
+	.4byte 0
+
+.global lbl_808EC684
+lbl_808EC684:
+
+	# ROM: 0x32CA4
+	.4byte 0xFFFFFF00
+
+.global lbl_808EC688
+lbl_808EC688:
+
+	# ROM: 0x32CA8
+	.4byte lbl_808EA6D8
+
+.global lbl_808EC68C
+lbl_808EC68C:
+
+	# ROM: 0x32CAC
+	.4byte 0x4B800000
+
+.global lbl_808EC690
+lbl_808EC690:
+
+	# ROM: 0x32CB0
+	.4byte 0
+
+.global lbl_808EC694
+lbl_808EC694:
+
+	# ROM: 0x32CB4
+	.4byte 0x404040FF
+
+.global lbl_808EC698
+lbl_808EC698:
+
+	# ROM: 0x32CB8
+	.4byte 0
+
+.global lbl_808EC69C
+lbl_808EC69C:
+
+	# ROM: 0x32CBC
+	.4byte 0xFFFFFFFF
+
+.global lbl_808EC6A0
+lbl_808EC6A0:
+
+	# ROM: 0x32CC0
+	.4byte 0x3F800000
+
+.global lbl_808EC6A4
+lbl_808EC6A4:
+
+	# ROM: 0x32CC4
+	.4byte 0x3DCCCCCD
+
+.global lbl_808EC6A8
+lbl_808EC6A8:
+
+	# ROM: 0x32CC8
+	.4byte 0x43300000
+	.4byte 0
+
+.global lbl_808EC6B0
+lbl_808EC6B0:
+
+	# ROM: 0x32CD0
+	.4byte 0x43800000
+	.4byte 0
+	.4byte 0x43300000
+	.4byte 0
+
+.global lbl_808EC6C0
+lbl_808EC6C0:
+
+	# ROM: 0x32CE0
+	.4byte 0
+
+.global lbl_808EC6C4
+lbl_808EC6C4:
+
+	# ROM: 0x32CE4
+	.4byte 0x42B40000
+
+.global lbl_808EC6C8
+lbl_808EC6C8:
+
+	# ROM: 0x32CE8
+	.4byte 0x40490FDB
+
+.global lbl_808EC6CC
+lbl_808EC6CC:
+
+	# ROM: 0x32CEC
+	.4byte 0x43340000
+
+.global lbl_808EC6D0
+lbl_808EC6D0:
+
+	# ROM: 0x32CF0
+	.4byte 0xC47A0000
+
+.global lbl_808EC6D4
+lbl_808EC6D4:
+
+	# ROM: 0x32CF4
+	.4byte 0x447A0000
+
+.global lbl_808EC6D8
+lbl_808EC6D8:
+
+	# ROM: 0x32CF8
+	.4byte 0x3F800000
+
+.global lbl_808EC6DC
+lbl_808EC6DC:
+
+	# ROM: 0x32CFC
+	.4byte 0x40000000
+
+.global lbl_808EC6E0
+lbl_808EC6E0:
+
+	# ROM: 0x32D00
+	.4byte 0xC0800000
+
+.global lbl_808EC6E4
+lbl_808EC6E4:
+
+	# ROM: 0x32D04
+	.4byte 0x40800000
+
+.global lbl_808EC6E8
+lbl_808EC6E8:
+
+	# ROM: 0x32D08
+	.4byte 0xC0000000
+	.4byte 0x3F000000
+	.4byte 0x3FE00000
+	.4byte 0
+	.4byte 0x40080000
+	.4byte 0
+	.4byte 0xDD5E0B6B
+	.4byte 0
+
+.global lbl_808EC708
+lbl_808EC708:
+
+	# ROM: 0x32D28
+	.4byte 0x41800000
+	.4byte 0
+
+.global lbl_808EC710
+lbl_808EC710:
+
+	# ROM: 0x32D30
+	.4byte 0x43300000
+	.4byte 0
+
+.global lbl_808EC718
+lbl_808EC718:
+
+	# ROM: 0x32D38
+	.4byte 0xC0800000
+
+.global lbl_808EC71C
+lbl_808EC71C:
+
+	# ROM: 0x32D3C
+	.4byte 0x40800000
+
+.global lbl_808EC720
+lbl_808EC720:
+
+	# ROM: 0x32D40
+	.4byte 0x407F5C29
+
+.global lbl_808EC724
+lbl_808EC724:
+
+	# ROM: 0x32D44
+	.4byte 0x42000000
+
+.global lbl_808EC728
+lbl_808EC728:
+
+	# ROM: 0x32D48
+	.4byte 0
+
+.global lbl_808EC72C
+lbl_808EC72C:
+
+	# ROM: 0x32D4C
+	.4byte 0x41200000
+	.4byte 0x3D800000
+	.4byte 0x3D000000
+	.4byte 0x43300000
+	.4byte 0x80000000
+	.4byte 0x44800000
+	.4byte 0x3A800000
+	.4byte 0
+	.4byte 0
+	.4byte 0x43300000
+	.4byte 0
+
+.global lbl_808EC758
+lbl_808EC758:
+
+	# ROM: 0x32D78
+	.4byte 0
+
+.global lbl_808EC75C
+lbl_808EC75C:
+
+	# ROM: 0x32D7C
+	.4byte 0x3F800000
+
+.global lbl_808EC760
+lbl_808EC760:
+
+	# ROM: 0x32D80
+	.4byte 0x3F000000
+	.4byte 0
+
+.global lbl_808EC768
+lbl_808EC768:
+
+	# ROM: 0x32D88
+	.4byte 0x3FF00000
+	.4byte 0
+
+.global lbl_808EC770
+lbl_808EC770:
+
+	# ROM: 0x32D90
+	.4byte 0x40000000
+	.4byte 0
+
+.global lbl_808EC778
+lbl_808EC778:
+
+	# ROM: 0x32D98
+	.4byte 0x3FE00000
+	.4byte 0
+
+.global lbl_808EC780
+lbl_808EC780:
+
+	# ROM: 0x32DA0
+	.4byte 0x4B00001E
+	.4byte 0
+
+.global lbl_808EC788
+lbl_808EC788:
+
+	# ROM: 0x32DA8
+	.4byte 0x43300000
+	.4byte 0x80000000
+	.4byte 0
+	.4byte 0
+	.4byte 0x3FDDB3D0
+	.4byte 0
+	.4byte 0x40080000
+	.4byte 0
+	.4byte 0x43800000
+	.4byte 0
+	.4byte 0x43300000
+	.4byte 0
+
+.global lbl_808EC7B8
+lbl_808EC7B8:
+
+	# ROM: 0x32DD8
+	.4byte 0
+	.4byte 0x3F800000
+
+.global lbl_808EC7C0
+lbl_808EC7C0:
+
+	# ROM: 0x32DE0
+	.4byte 0x3F000000
+
+.global lbl_808EC7C4
+lbl_808EC7C4:
+
+	# ROM: 0x32DE4
+	.4byte 0x43AB0000
+	.4byte 0x4B7FFFFF
+	.4byte 0
+
+.global lbl_808EC7D0
+lbl_808EC7D0:
+
+	# ROM: 0x32DF0
+	.4byte 0x3F800000
+
+.global lbl_808EC7D4
+lbl_808EC7D4:
+
+	# ROM: 0x32DF4
+	.4byte 0
+	.4byte 0x3F000000
+	.4byte 0x40400000
+	.4byte 0x40000000
+	.4byte 0xC0000000
+	.4byte 0xBF800000
+	.4byte 0x3C8EFA35
+
+.global lbl_808EC7F0
+lbl_808EC7F0:
+
+	# ROM: 0x32E10
+	.4byte 0x3F800000
+
+.global lbl_808EC7F4
+lbl_808EC7F4:
+
+	# ROM: 0x32E14
+	.4byte 0x40000000
+
+.global lbl_808EC7F8
+lbl_808EC7F8:
+
+	# ROM: 0x32E18
+	.4byte 0
+
+.global lbl_808EC7FC
+lbl_808EC7FC:
+
+	# ROM: 0x32E1C
+	.4byte 0xBF800000
+	.4byte 0x3F000000
+	.4byte 0x3C8EFA35
+	.4byte 0x40400000
+	.4byte 0
+	.4byte 0
+	.4byte 0
+	.4byte 0x3FE00000
+	.4byte 0
+	.4byte 0x40080000
+	.4byte 0
+	.4byte 0x3F800000
+	.4byte 0x3F000000
+	.4byte 0x40400000
+	.4byte 0x40000000
+
+.global lbl_808EC838
+lbl_808EC838:
+
+	# ROM: 0x32E58
+	.4byte 0x3F000000
+
+.global lbl_808EC83C
+lbl_808EC83C:
+
+	# ROM: 0x32E5C
+	.4byte 0x41800000
+
+.global lbl_808EC840
+lbl_808EC840:
+
+	# ROM: 0x32E60
+	.4byte 0x3DC8B439
+
+.global lbl_808EC844
+lbl_808EC844:
+
+	# ROM: 0x32E64
+	.4byte 0x3E839581
+
+.global lbl_808EC848
+lbl_808EC848:
+
+	# ROM: 0x32E68
+	.4byte 0x3F010625
+
+.global lbl_808EC84C
+lbl_808EC84C:
+
+	# ROM: 0x32E6C
+	.4byte 0x43000000
+
+.global lbl_808EC850
+lbl_808EC850:
+
+	# ROM: 0x32E70
+	.4byte 0x3EE0C49C
+
+.global lbl_808EC854
+lbl_808EC854:
+
+	# ROM: 0x32E74
+	.4byte 0xBE178D50
+
+.global lbl_808EC858
+lbl_808EC858:
+
+	# ROM: 0x32E78
+	.4byte 0x3E94FDF4
+
+.global lbl_808EC85C
+lbl_808EC85C:
+
+	# ROM: 0x32E7C
+	.4byte 0x3EBC6A7F
+
+.global lbl_808EC860
+lbl_808EC860:
+
+	# ROM: 0x32E80
+	.4byte 0x3D916873
+
+.global lbl_808EC864
+lbl_808EC864:
+
+	# ROM: 0x32E84
+	.4byte 0x436B0000
+
+.global lbl_808EC868
+lbl_808EC868:
+
+	# ROM: 0x32E88
+	.4byte 0x43700000
+	.4byte 0
+
+.global lbl_808EC870
+lbl_808EC870:
+
+	# ROM: 0x32E90
+	.4byte 0x43300000
+	.4byte 0
+
+.global lbl_808EC878
+lbl_808EC878:
+
+	# ROM: 0x32E98
+	.4byte 0x2ABE003D
+
+.global lbl_808EC87C
+lbl_808EC87C:
+
+	# ROM: 0x32E9C
+	.4byte 0x003D003D
+	.4byte 0
+	.4byte 0
+	.4byte 0x3FE00000
+	.4byte 0
+	.4byte 0x40080000
+	.4byte 0
+	.4byte 0x43300000
+	.4byte 0x80000000
+
+.global lbl_808EC8A0
+lbl_808EC8A0:
+
+	# ROM: 0x32EC0
+	.4byte 0x00010202
+	.4byte 0x03030303
+	.4byte 0x04040404
+	.4byte 0x04040404
+	.4byte 0x05050505
+	.4byte 0x05050505
+	.4byte 0x05050505
+	.4byte 0x05050505
+	.4byte 0x06060606
+	.4byte 0x06060606
+	.4byte 0x06060606
+	.4byte 0x06060606
+	.4byte 0x06060606
+	.4byte 0x06060606
+	.4byte 0x06060606
+	.4byte 0x06060606
+	.4byte 0x07070707
+	.4byte 0x07070707
+	.4byte 0x07070707
+	.4byte 0x07070707
+	.4byte 0x07070707
+	.4byte 0x07070707
+	.4byte 0x07070707
+	.4byte 0x07070707
+	.4byte 0x07070707
+	.4byte 0x07070707
+	.4byte 0x07070707
+	.4byte 0x07070707
+	.4byte 0x07070707
+	.4byte 0x07070707
+	.4byte 0x07070707
+	.4byte 0x07070707
+	.4byte 0x08080808
+	.4byte 0x08080808
+	.4byte 0x08080808
+	.4byte 0x08080808
+	.4byte 0x08080808
+	.4byte 0x08080808
+	.4byte 0x08080808
+	.4byte 0x08080808
+	.4byte 0x08080808
+	.4byte 0x08080808
+	.4byte 0x08080808
+	.4byte 0x08080808
+	.4byte 0x08080808
+	.4byte 0x08080808
+	.4byte 0x08080808
+	.4byte 0x08080808
+	.4byte 0x08080808
+	.4byte 0x08080808
+	.4byte 0x08080808
+	.4byte 0x08080808
+	.4byte 0x08080808
+	.4byte 0x08080808
+	.4byte 0x08080808
+	.4byte 0x08080808
+	.4byte 0x08080808
+	.4byte 0x08080808
+	.4byte 0x08080808
+	.4byte 0x08080808
+	.4byte 0x08080808
+	.4byte 0x08080808
+	.4byte 0x08080808
+	.4byte 0x08080808
+
+.global lbl_808EC9A0
+lbl_808EC9A0:
+
+	# ROM: 0x32FC0
+	.4byte 0x00010202
+	.4byte 0x03030303
+	.4byte 0x04040404
+	.4byte 0x04040404
+	.4byte 0x05050505
+	.4byte 0x05050505
+	.4byte 0x05050505
+	.4byte 0x05050505
+	.4byte 0x06060606
+	.4byte 0x06060606
+	.4byte 0x06060606
+	.4byte 0x06060606
+	.4byte 0x06060606
+	.4byte 0x06060606
+	.4byte 0x06060606
+	.4byte 0x06060606
+	.4byte 0x07070707
+	.4byte 0x07070707
+	.4byte 0x07070707
+	.4byte 0x07070707
+	.4byte 0x07070707
+	.4byte 0x07070707
+	.4byte 0x07070707
+	.4byte 0x07070707
+	.4byte 0x07070707
+	.4byte 0x07070707
+	.4byte 0x07070707
+	.4byte 0x07070707
+	.4byte 0x07070707
+	.4byte 0x07070707
+	.4byte 0x07070707
+	.4byte 0x07070707
+	.4byte 0x08080808
+	.4byte 0x08080808
+	.4byte 0x08080808
+	.4byte 0x08080808
+	.4byte 0x08080808
+	.4byte 0x08080808
+	.4byte 0x08080808
+	.4byte 0x08080808
+	.4byte 0x08080808
+	.4byte 0x08080808
+	.4byte 0x08080808
+	.4byte 0x08080808
+	.4byte 0x08080808
+	.4byte 0x08080808
+	.4byte 0x08080808
+	.4byte 0x08080808
+	.4byte 0x08080808
+	.4byte 0x08080808
+	.4byte 0x08080808
+	.4byte 0x08080808
+	.4byte 0x08080808
+	.4byte 0x08080808
+	.4byte 0x08080808
+	.4byte 0x08080808
+	.4byte 0x08080808
+	.4byte 0x08080808
+	.4byte 0x08080808
+	.4byte 0x08080808
+	.4byte 0x08080808
+	.4byte 0x08080808
+	.4byte 0x08080808
+	.4byte 0x08080808
+
+.global lbl_808ECAA0
+lbl_808ECAA0:
+
+	# ROM: 0x330C0
+	.4byte 0x00010202
+	.4byte 0x03030303
+	.4byte 0x04040404
+	.4byte 0x04040404
+	.4byte 0x05050505
+	.4byte 0x05050505
+	.4byte 0x05050505
+	.4byte 0x05050505
+	.4byte 0x06060606
+	.4byte 0x06060606
+	.4byte 0x06060606
+	.4byte 0x06060606
+	.4byte 0x06060606
+	.4byte 0x06060606
+	.4byte 0x06060606
+	.4byte 0x06060606
+	.4byte 0x07070707
+	.4byte 0x07070707
+	.4byte 0x07070707
+	.4byte 0x07070707
+	.4byte 0x07070707
+	.4byte 0x07070707
+	.4byte 0x07070707
+	.4byte 0x07070707
+	.4byte 0x07070707
+	.4byte 0x07070707
+	.4byte 0x07070707
+	.4byte 0x07070707
+	.4byte 0x07070707
+	.4byte 0x07070707
+	.4byte 0x07070707
+	.4byte 0x07070707
+	.4byte 0x08080808
+	.4byte 0x08080808
+	.4byte 0x08080808
+	.4byte 0x08080808
+	.4byte 0x08080808
+	.4byte 0x08080808
+	.4byte 0x08080808
+	.4byte 0x08080808
+	.4byte 0x08080808
+	.4byte 0x08080808
+	.4byte 0x08080808
+	.4byte 0x08080808
+	.4byte 0x08080808
+	.4byte 0x08080808
+	.4byte 0x08080808
+	.4byte 0x08080808
+	.4byte 0x08080808
+	.4byte 0x08080808
+	.4byte 0x08080808
+	.4byte 0x08080808
+	.4byte 0x08080808
+	.4byte 0x08080808
+	.4byte 0x08080808
+	.4byte 0x08080808
+	.4byte 0x08080808
+	.4byte 0x08080808
+	.4byte 0x08080808
+	.4byte 0x08080808
+	.4byte 0x08080808
+	.4byte 0x08080808
+	.4byte 0x08080808
+	.4byte 0x08080808
+
+.global lbl_808ECBA0
+lbl_808ECBA0:
+
+	# ROM: 0x331C0
+	.4byte 0x00010202
+	.4byte 0x03030303
+	.4byte 0x04040404
+	.4byte 0x04040404
+	.4byte 0x05050505
+	.4byte 0x05050505
+	.4byte 0x05050505
+	.4byte 0x05050505
+	.4byte 0x06060606
+	.4byte 0x06060606
+	.4byte 0x06060606
+	.4byte 0x06060606
+	.4byte 0x06060606
+	.4byte 0x06060606
+	.4byte 0x06060606
+	.4byte 0x06060606
+	.4byte 0x07070707
+	.4byte 0x07070707
+	.4byte 0x07070707
+	.4byte 0x07070707
+	.4byte 0x07070707
+	.4byte 0x07070707
+	.4byte 0x07070707
+	.4byte 0x07070707
+	.4byte 0x07070707
+	.4byte 0x07070707
+	.4byte 0x07070707
+	.4byte 0x07070707
+	.4byte 0x07070707
+	.4byte 0x07070707
+	.4byte 0x07070707
+	.4byte 0x07070707
+	.4byte 0x08080808
+	.4byte 0x08080808
+	.4byte 0x08080808
+	.4byte 0x08080808
+	.4byte 0x08080808
+	.4byte 0x08080808
+	.4byte 0x08080808
+	.4byte 0x08080808
+	.4byte 0x08080808
+	.4byte 0x08080808
+	.4byte 0x08080808
+	.4byte 0x08080808
+	.4byte 0x08080808
+	.4byte 0x08080808
+	.4byte 0x08080808
+	.4byte 0x08080808
+	.4byte 0x08080808
+	.4byte 0x08080808
+	.4byte 0x08080808
+	.4byte 0x08080808
+	.4byte 0x08080808
+	.4byte 0x08080808
+	.4byte 0x08080808
+	.4byte 0x08080808
+	.4byte 0x08080808
+	.4byte 0x08080808
+	.4byte 0x08080808
+	.4byte 0x08080808
+	.4byte 0x08080808
+	.4byte 0x08080808
+	.4byte 0x08080808
+	.4byte 0x08080808
+
+.global lbl_808ECCA0
+lbl_808ECCA0:
+
+	# ROM: 0x332C0
+	.4byte 0x000000A2
+	.4byte 0x000000F9
+	.4byte 0x00000083
+	.4byte 0x0000006E
+	.4byte 0x0000004E
+	.4byte 0x00000044
+	.4byte 0x00000015
+	.4byte 0x00000029
+	.4byte 0x000000FC
+	.4byte 0x00000027
+	.4byte 0x00000057
+	.4byte 0x000000D1
+	.4byte 0x000000F5
+	.4byte 0x00000034
+	.4byte 0x000000DD
+	.4byte 0x000000C0
+	.4byte 0x000000DB
+	.4byte 0x00000062
+	.4byte 0x00000095
+	.4byte 0x00000099
+	.4byte 0x0000003C
+	.4byte 0x00000043
+	.4byte 0x00000090
+	.4byte 0x00000041
+	.4byte 0x000000FE
+	.4byte 0x00000051
+	.4byte 0x00000063
+	.4byte 0x000000AB
+	.4byte 0x000000DE
+	.4byte 0x000000BB
+	.4byte 0x000000C5
+	.4byte 0x00000061
+	.4byte 0x000000B7
+	.4byte 0x00000024
+	.4byte 0x0000006E
+	.4byte 0x0000003A
+	.4byte 0x00000042
+	.4byte 0x0000004D
+	.4byte 0x000000D2
+	.4byte 0x000000E0
+	.4byte 0x00000006
+	.4byte 0x00000049
+	.4byte 0x0000002E
+	.4byte 0x000000EA
+	.4byte 0x00000009
+	.4byte 0x000000D1
+	.4byte 0x00000092
+	.4byte 0x0000001C
+	.4byte 0x000000FE
+	.4byte 0x0000001D
+	.4byte 0x000000EB
+	.4byte 0x0000001C
+	.4byte 0x000000B1
+	.4byte 0x00000029
+	.4byte 0x000000A7
+	.4byte 0x0000003E
+	.4byte 0x000000E8
+	.4byte 0x00000082
+	.4byte 0x00000035
+	.4byte 0x000000F5
+	.4byte 0x0000002E
+	.4byte 0x000000BB
+	.4byte 0x00000044
+	.4byte 0x00000084
+	.4byte 0x000000E9
+	.4byte 0x0000009C
+	.4byte 0x00000070
+	.4byte 0x00000026
+	.4byte 0x000000B4
+	.4byte 0x0000005F
+	.4byte 0x0000007E
+	.4byte 0x00000041
+	.4byte 0x00000039
+	.4byte 0x00000091
+	.4byte 0x000000D6
+	.4byte 0x00000039
+	.4byte 0x00000083
+	.4byte 0x00000053
+	.4byte 0x00000039
+	.4byte 0x000000F4
+	.4byte 0x0000009C
+	.4byte 0x00000084
+	.4byte 0x0000005F
+	.4byte 0x0000008B
+	.4byte 0x000000BD
+	.4byte 0x000000F9
+	.4byte 0x00000028
+	.4byte 0x0000003B
+	.4byte 0x0000001F
+	.4byte 0x000000F8
+	.4byte 0x00000097
+	.4byte 0x000000FF
+	.4byte 0x000000DE
+	.4byte 0x00000005
+	.4byte 0x00000098
+	.4byte 0x0000000F
+	.4byte 0x000000EF
+	.4byte 0x0000002F
+	.4byte 0x00000011
+	.4byte 0x0000008B
+	.4byte 0x0000005A
+	.4byte 0x0000000A
+	.4byte 0x0000006D
+	.4byte 0x0000001F
+	.4byte 0x0000006D
+	.4byte 0x00000036
+	.4byte 0x0000007E
+	.4byte 0x000000CF
+	.4byte 0x00000027
+	.4byte 0x000000CB
+	.4byte 0x00000009
+	.4byte 0x000000B7
+	.4byte 0x0000004F
+	.4byte 0x00000046
+	.4byte 0x0000003F
+	.4byte 0x00000066
+	.4byte 0x0000009E
+	.4byte 0x0000005F
+	.4byte 0x000000EA
+	.4byte 0x0000002D
+	.4byte 0x00000075
+	.4byte 0x00000027
+	.4byte 0x000000BA
+	.4byte 0x000000C7
+	.4byte 0x000000EB
+	.4byte 0x000000E5
+	.4byte 0x000000F1
+	.4byte 0x0000007B
+	.4byte 0x0000003D
+	.4byte 0x00000007
+	.4byte 0x00000039
+	.4byte 0x000000F7
+	.4byte 0x0000008A
+	.4byte 0x00000052
+	.4byte 0x00000092
+	.4byte 0x000000EA
+	.4byte 0x0000006B
+	.4byte 0x000000FB
+	.4byte 0x0000005F
+	.4byte 0x000000B1
+	.4byte 0x0000001F
+	.4byte 0x0000008D
+	.4byte 0x0000005D
+	.4byte 0x00000008
+	.4byte 0x00000056
+	.4byte 0x00000003
+	.4byte 0x00000030
+	.4byte 0x00000046
+	.4byte 0x000000FC
+	.4byte 0x0000007B
+	.4byte 0x0000006B
+	.4byte 0x000000AB
+	.4byte 0x000000F0
+	.4byte 0x000000CF
+	.4byte 0x000000BC
+	.4byte 0x00000020
+	.4byte 0x0000009A
+	.4byte 0x000000F4
+	.4byte 0x00000036
+	.4byte 0x0000001D
+	.4byte 0x000000A9
+	.4byte 0x000000E3
+	.4byte 0x00000091
+	.4byte 0x00000061
+	.4byte 0x0000005E
+	.4byte 0x000000E6
+	.4byte 0x0000001B
+	.4byte 0x00000008
+	.4byte 0x00000065
+	.4byte 0x00000099
+	.4byte 0x00000085
+	.4byte 0x0000005F
+	.4byte 0x00000014
+	.4byte 0x000000A0
+	.4byte 0x00000068
+	.4byte 0x00000040
+	.4byte 0x0000008D
+	.4byte 0x000000FF
+	.4byte 0x000000D8
+	.4byte 0x00000080
+	.4byte 0x0000004D
+	.4byte 0x00000073
+	.4byte 0x00000027
+	.4byte 0x00000031
+	.4byte 0x00000006
+	.4byte 0x00000006
+	.4byte 0x00000015
+	.4byte 0x00000056
+	.4byte 0x000000CA
+	.4byte 0x00000073
+	.4byte 0x000000A8
+	.4byte 0x000000C9
+	.4byte 0x00000060
+	.4byte 0x000000E2
+	.4byte 0x0000007B
+	.4byte 0x000000C0
+	.4byte 0x0000008C
+	.4byte 0x0000006B
+
+.global lbl_808ECFB8
+lbl_808ECFB8:
+
+	# ROM: 0x335D8
+	.4byte 0x3FC90F00
+	.4byte 0x40490F00
+	.4byte 0x4096CB00
+	.4byte 0x40C90F00
+	.4byte 0x40FB5300
+	.4byte 0x4116CB00
+	.4byte 0x412FED00
+	.4byte 0x41490F00
+	.4byte 0x41623100
+	.4byte 0x417B5300
+	.4byte 0x418A3A00
+	.4byte 0x4196CB00
+	.4byte 0x41A35C00
+	.4byte 0x41AFED00
+	.4byte 0x41BC7E00
+	.4byte 0x41C90F00
+	.4byte 0x41D5A000
+	.4byte 0x41E23100
+	.4byte 0x41EEC200
+	.4byte 0x41FB5300
+	.4byte 0x4203F200
+	.4byte 0x420A3A00
+	.4byte 0x42108300
+	.4byte 0x4216CB00
+	.4byte 0x421D1400
+	.4byte 0x42235C00
+	.4byte 0x4229A500
+	.4byte 0x422FED00
+	.4byte 0x42363600
+	.4byte 0x423C7E00
+	.4byte 0x4242C700
+	.4byte 0x42490F00
+
+.global lbl_808ED038
+lbl_808ED038:
+
+	# ROM: 0x33658
+	.4byte 0x00000004
+	.4byte 0x00000007
+	.4byte 0x00000009
+
+.global lbl_808ED044
+lbl_808ED044:
+
+	# ROM: 0x33664
+	.4byte 0x3FC90000
+	.4byte 0x39F00000
+	.4byte 0x37DA0000
+	.4byte 0x33A20000
+	.4byte 0x2E840000
+	.4byte 0x2B500000
+	.4byte 0x27C20000
+	.4byte 0x22D00000
+	.4byte 0x1FC40000
+	.4byte 0x1BC60000
+	.4byte 0x17440000
+	.4byte 0
+	.4byte 0
+	.4byte 0
+	.4byte 0
