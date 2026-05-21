@@ -7,6 +7,8 @@ This directory contains project-level documentation and imported decomp-toolkit 
 - `GOYE69_DECOMP_GUIDE.md`: practical quickstart for GOYE69 setup and first matching steps.
 - `AGENT_MATCHING_TIPS.md`: matching heuristics and MWCC behavior notes.
 - `PROGRAM_STRUCTURE_REVERSING.md`: notes for recovering high-level structure from symbols/maps.
+- `../tools/mwcc_compiler/README.md`: local MWCC folder layout used by this repository.
+- `../tools/prodg/README.md`: optional ProDG notes.
 
 ## decomp-toolkit Reference Docs
 

@@ -5,6 +5,8 @@ This guide is the practical starting point for GoldenEye: Rogue Agent (GameCube)
 ## 1) Environment
 
 1. Place extracted game files under orig/GOYE69 (sys and files).
+2. Place MWCC tools under `tools/mwcc_compiler/2.7`.
+3. On Linux, ensure `wine` is installed and available in PATH.
 2. Configure and generate build files:
    - python3 configure.py --version GOYE69
 3. Download tool binaries:
@@ -27,8 +29,19 @@ Reference disassembly dumps are under asm/reference.
 2. Keep original symbol naming until behavior is verified.
 3. Reconstruct minimal source in src.
 4. Add required declarations in include.
-5. Rebuild and inspect object diffs.
+5. Rebuild source objects with `ninja` (default target is compile-only during active matching work).
+6. Inspect object diffs.
 6. Iterate until stack, branches, and instruction shape match.
+
+### Current practical loop
+
+```bash
+python3 configure.py --version GOYE69
+ninja
+ninja -v build/GOYE69/src/src/gamemain.o
+```
+
+Use object-level validation while incomplete objects exist. Full DOL linking can be deferred until the split set is stable.
 
 ## 4) Suggested First Targets
 
@@ -66,6 +79,7 @@ Extract candidate symbols from map lines matching a pattern:
 - Large refactors before first matching wins.
 - Renaming symbols too early.
 - Ignoring case-sensitive paths on Linux.
+- Trying to force full-link too early instead of iterating on object-level matching first.
 
 ## 8) Definition of Done (Per Function)
 

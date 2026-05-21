@@ -1,7 +1,13 @@
-lbl_80013694 = .text:0x80013694; // type:label
-lbl_800136DC = .text:0x800136DC; // type:label
-lbl_800136F0 = .text:0x800136F0; // type:label
-lbl_80013708 = .text:0x80013708; // type:label
+func_80013564 = .text:0x80013564; // type:function
+func_80013584 = .text:0x80013584; // type:function
+func_800135A4 = .text:0x800135A4; // type:function
+func_800135BC = .text:0x800135BC; // type:function
+func_80013650 = .text:0x80013650; // type:function
+func_80013694 = .text:0x80013694; // type:function
+func_800136DC = .text:0x800136DC; // type:function
+func_800136E0 = .text:0x800136E0; // type:function
+func_800136F0 = .text:0x800136F0; // type:function
+func_80013708 = .text:0x80013708; // type:function
 lbl_80013958 = .text:0x80013958; // type:label
 lbl_80013D64 = .text:0x80013D64; // type:label
 lbl_80015340 = .text:0x80015340; // type:label

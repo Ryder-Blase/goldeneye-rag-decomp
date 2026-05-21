@@ -1524,9 +1524,12 @@ def generate_build_ninja(
     # Default rule
     ###
     n.comment("Default rule")
+    has_incomplete_objects = any(not obj.completed for obj in objects.values())
     if build_config:
         if config.non_matching:
             n.default(link_outputs)
+        elif has_incomplete_objects:
+            n.default("all_source")
         elif config.progress:
             n.default("progress")
         else:

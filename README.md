@@ -18,6 +18,26 @@ A legal copy of the game is required to extract local input files.
 3. Document engine behavior and data structures.
 4. Keep PC-port work separate until matching is complete.
 
+## Current Coverage Snapshot
+
+Coverage is tracked with a real code metric first, then structure metrics.
+
+- **Real decomp coverage (code bytes):** `0.049%`
+  - Formula: source-owned code bytes / total code bytes from `splits.txt` code sections (`.init` + `.text`).
+  - Current values:
+    - `88 / 178,976` bytes (`src/gamemain.cpp` currently owns `0x58` bytes in `.text`).
+- **Integration coverage (translation units):** `1.41%`
+  - `1 / 71` expected `.c/.cpp` units are integrated in `splits.txt` and link graph.
+- **Inventory coverage (ASM/ELF path presence):** `100%`
+  - `79 / 79` known source/header paths referenced by ASM/ELF are present in the repository tree.
+
+To refresh these numbers locally, regenerate and inspect the audit report:
+
+```bash
+python3 configure.py --version GOYE69
+cat build/quasi100_audit.md
+```
+
 ## Repository Structure
 
 ```text
@@ -51,10 +71,11 @@ Required local toolchain layout:
 ```text
 tools/
   mwcc_compiler/
-    mwcceppc.exe
-    mwldeppc.exe
-    mwasmeppc.exe
-    ...
+    2.7/
+      mwcceppc.exe
+      mwldeppc.exe
+      mwasmeppc.exe
+      ...
   prodg/
     ngccc.exe
     ngcld.exe
@@ -75,11 +96,29 @@ sudo pacman -Sy --needed wine
 
 Notes:
 
-- `configure.py` auto-detects `tools/mwcc_compiler` when present.
+- `configure.py` auto-detects `tools/mwcc_compiler/2.7` when present.
 - On Linux, the build defaults to using `wine` as compiler wrapper.
 - You can override paths manually with:
   - `--compilers <path>`
   - `--wrapper <binary>`
+
+### Current Matching Build Flow
+
+During early matching work, default `ninja` builds compile-only sources (`all_source`) when incomplete objects are present.
+This avoids blocking on full-link issues while iterating on object-level matching.
+
+Useful commands:
+
+```bash
+# Regenerate build graph
+python3 configure.py --version GOYE69
+
+# Default compile-only matching loop
+ninja
+
+# Build one target object explicitly
+ninja -v build/GOYE69/src/src/gamemain.o
+```
 
 Expected local game path:
 

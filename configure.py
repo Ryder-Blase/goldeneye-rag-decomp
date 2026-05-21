@@ -74,6 +74,8 @@ def make_config(args: argparse.Namespace) -> ProjectConfig:
     local_dtk = Path("tools") / "dtk" / "dtk-linux-x86_64"
     local_compilers_structured = Path("tools") / "compilers"
     local_compilers_flat = Path("tools") / "mwcc_compiler"
+    local_compilers_27 = local_compilers_flat / "2.7"
+    local_compilers_20 = local_compilers_flat / "2.0"
     config.dtk_path = args.dtk if args.dtk is not None else (local_dtk if local_dtk.is_file() else None)
     config.objdiff_path = args.objdiff
     config.binutils_path = args.binutils
@@ -81,6 +83,10 @@ def make_config(args: argparse.Namespace) -> ProjectConfig:
         config.compilers_path = args.compilers
     elif (local_compilers_structured / "GC" / "1.2.5n" / "mwcceppc.exe").is_file():
         config.compilers_path = local_compilers_structured
+    elif (local_compilers_27 / "mwcceppc.exe").is_file() and (local_compilers_27 / "mwldeppc.exe").is_file():
+        config.compilers_path = local_compilers_27
+    elif (local_compilers_20 / "mwcceppc.exe").is_file() and (local_compilers_20 / "mwldeppc.exe").is_file():
+        config.compilers_path = local_compilers_20
     elif (local_compilers_flat / "mwcceppc.exe").is_file():
         config.compilers_path = local_compilers_flat
     else:
@@ -163,7 +169,7 @@ def make_config(args: argparse.Namespace) -> ProjectConfig:
             "mw_version": config.linker_version,
             "cflags": cflags_base,
             "objects": [
-                Object(True, "src/main/main_bootstrap.c", source="main/main_bootstrap.c"),
+                Object(False, "src/gamemain.cpp", source="gamemain.cpp"),
             ],
         },
     ]

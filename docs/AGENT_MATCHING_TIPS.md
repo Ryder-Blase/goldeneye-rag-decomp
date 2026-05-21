@@ -4,6 +4,14 @@ This document collects practical knowledge about how the Metrowerks CodeWarrior 
 
 Read this document before attempting to match functions. The patterns described here are recurring and will save significant trial-and-error time. Expand the document as needed. Ask for human review whenever the contents of the document disagree with observed reality.
 
+## Project-specific practical constraints (GOYE69)
+
+- Current Linux flow uses MWCC under Wine from `tools/mwcc_compiler/2.7`.
+- During active decomp (incomplete objects), default `ninja` should be compile-first (`all_source`) to keep iteration fast.
+- Prefer object-level validation first, then full-link validation once adjacent split objects are stable.
+- If full-link errors mention mixed predefined section semantics (for example `.sdata2` with `.ctors$00`), do not force section hacks early. Stabilize split boundaries and symbol metadata first.
+- If progress/report generation fails with symbol range errors, prioritize compile and object diff work; treat report generation as secondary until symbol coverage improves.
+
 ## What NOT to focus on
 
 There are some things that might seem like low hanging fruit at first sight but really are not. They are:
