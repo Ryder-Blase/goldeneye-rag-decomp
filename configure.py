@@ -131,6 +131,7 @@ def make_config(args: argparse.Namespace) -> ProjectConfig:
         Path("config") / config.version / "symbols.txt",
     ]
     config.linker_version = "GC/1.2.5n"
+    config.shift_jis = False
 
     cflags_base = [
         "-nodefaults",
@@ -162,7 +163,7 @@ def make_config(args: argparse.Namespace) -> ProjectConfig:
             "mw_version": config.linker_version,
             "cflags": cflags_base,
             "objects": [
-                Object(True, "main/main_bootstrap.c"),
+                Object(True, "src/main/main_bootstrap.c", source="main/main_bootstrap.c"),
             ],
         },
     ]

@@ -9,15 +9,9 @@ Sections:
 	.sbss       type:bss align:32
 	.sdata2     type:rodata align:32
 
-asm/main/main_before.s:
+asm/main/main_all.s:
 	.init       start:0x80013100 end:0x800134A0
-	.text       start:0x800134A0 end:0x80013564
-
-src/main/main_bootstrap.c:
-	.text       start:0x80013564 end:0x800135A4
-
-asm/main/main_after.s:
-	.text       start:0x800135A4 end:0x8003EC20
+	.text       start:0x800134A0 end:0x8003EC20
 	.data0      start:0x8003EC20 end:0x8003EC40
 	.data1      start:0x8003EC40 end:0x8003FD00
 	.data2      start:0x8003FD00 end:0x80044C80

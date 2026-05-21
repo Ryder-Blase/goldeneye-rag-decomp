@@ -40,6 +40,12 @@ compile_commands.json
 # Miscellaneous
 *.exe
 tools/mwcc_compiler/*
+!tools/mwcc_compiler/
+!tools/mwcc_compiler/README.md
 *.log
 tools/prodg/*
+!tools/prodg/
+!tools/prodg/README.md
 tools/dtk/*
+!tools/dtk/
+!tools/dtk/README.md
