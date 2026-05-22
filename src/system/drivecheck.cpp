@@ -1504,3 +1504,1404 @@ extern "C" void func_8001F444(void) {
 
 extern "C" void func_8001F450(void) {
 }
+
+extern "C" void func_8001F468(void) {
+}
+
+extern "C" void func_8001F4B0(void) {
+}
+
+extern "C" void func_8001F50C(void) {
+}
+
+extern "C" void func_8001F52C(void) {
+}
+
+extern "C" void func_8001F680(void) {
+}
+
+extern "C" void func_8001F68C(void) {
+}
+
+extern "C" void func_8001F6A0(void) {
+}
+
+extern "C" void func_8001F78C(void) {
+}
+
+extern "C" void func_8001F798(void) {
+}
+
+extern "C" void func_8001F7AC(void) {
+}
+
+extern "C" void func_8001F84C(void) {
+}
+
+extern "C" void func_8001F868(void) {
+}
+
+extern "C" void func_8001F974(void) {
+}
+
+extern "C" void func_8001F980(void) {
+}
+
+extern "C" void func_8001F994(void) {
+}
+
+extern "C" void func_8001FA48(void) {
+}
+
+extern "C" void func_8001FA84(void) {
+}
+
+extern "C" void func_8001FE54(void) {
+}
+
+extern "C" void func_80020000(void) {
+}
+
+extern "C" void func_80020028(void) {
+}
+
+extern "C" void func_80020108(void) {
+}
+
+extern "C" void func_8002011C(void) {
+}
+
+extern "C" void func_800201D8(void) {
+}
+
+extern "C" void func_80020220(void) {
+}
+
+extern "C" void func_80020340(void) {
+}
+
+extern "C" void func_8002038C(void) {
+}
+
+extern "C" void func_800204D8(void) {
+}
+
+extern "C" void func_80020558(void) {
+}
+
+extern "C" void func_800205BC(void) {
+}
+
+extern "C" void func_8002066C(void) {
+}
+
+extern "C" void func_80020680(void) {
+}
+
+extern "C" void func_800206B0(void) {
+}
+
+extern "C" void func_800206EC(void) {
+}
+
+extern "C" void func_80020728(void) {
+}
+
+extern "C" void func_8002072C(void) {
+}
+
+extern "C" void func_80020780(void) {
+}
+
+extern "C" void func_80020784(void) {
+}
+
+extern "C" void func_8002086C(void) {
+}
+
+extern "C" void func_80020880(void) {
+}
+
+extern "C" void func_800209AC(void) {
+}
+
+extern "C" void func_800209B8(void) {
+}
+
+extern "C" void func_800209BC(void) {
+}
+
+extern "C" void func_80020ADC(void) {
+}
+
+extern "C" void func_80020AE8(void) {
+}
+
+extern "C" void func_80020AEC(void) {
+}
+
+extern "C" void func_80020CB0(void) {
+}
+
+extern "C" void func_80020CC4(void) {
+}
+
+extern "C" void func_80020CC8(void) {
+}
+
+extern "C" void func_80020E5C(void) {
+}
+
+extern "C" void func_80020E60(void) {
+}
+
+extern "C" void func_80020E64(void) {
+}
+
+extern "C" void func_80020EF8(void) {
+}
+
+extern "C" void func_80020EFC(void) {
+}
+
+extern "C" void func_80020F00(void) {
+}
+
+extern "C" void func_80020F3C(void) {
+}
+
+extern "C" void func_80020F40(void) {
+}
+
+extern "C" void func_80020F44(void) {
+}
+
+extern "C" void func_80021018(void) {
+}
+
+extern "C" void func_800210BC(void) {
+}
+
+extern "C" void func_800210C8(void) {
+}
+
+extern "C" void func_800211D8(void) {
+}
+
+extern "C" void func_800211DC(void) {
+}
+
+extern "C" void func_800211E0(void) {
+}
+
+extern "C" void func_80021204(void) {
+}
+
+extern "C" void func_80021208(void) {
+}
+
+extern "C" void func_8002120C(void) {
+}
+
+extern "C" void func_80021674(void) {
+}
+
+extern "C" void func_80021678(void) {
+}
+
+extern "C" void func_8002167C(void) {
+}
+
+extern "C" void func_80021718(void) {
+}
+
+extern "C" void func_8002171C(void) {
+}
+
+extern "C" void func_80021720(void) {
+}
+
+extern "C" void func_80021838(void) {
+}
+
+extern "C" void func_80021A84(void) {
+}
+
+extern "C" void func_80021AF0(void) {
+}
+
+extern "C" void func_80021B60(void) {
+}
+
+extern "C" void func_80021B6C(void) {
+}
+
+extern "C" void func_80021C70(void) {
+}
+
+extern "C" void func_80021C94(void) {
+}
+
+extern "C" void func_80021DDC(void) {
+}
+
+extern "C" void func_80021E0C(void) {
+}
+
+extern "C" void func_80021E50(void) {
+}
+
+extern "C" void func_80021E9C(void) {
+}
+
+extern "C" void func_80021EC0(void) {
+}
+
+extern "C" void func_80021EE4(void) {
+}
+
+extern "C" void func_80021EF8(void) {
+}
+
+extern "C" void func_80021F18(void) {
+}
+
+extern "C" void func_80021F48(void) {
+}
+
+extern "C" void func_80021F78(void) {
+}
+
+extern "C" void func_80022078(void) {
+}
+
+extern "C" void func_80022080(void) {
+}
+
+extern "C" void func_80022088(void) {
+}
+
+extern "C" void func_8002229C(void) {
+}
+
+extern "C" void func_800222E0(void) {
+}
+
+extern "C" void func_80022514(void) {
+}
+
+extern "C" void func_80022518(void) {
+}
+
+extern "C" void func_80022568(void) {
+}
+
+extern "C" void func_8002257C(void) {
+}
+
+extern "C" void func_800225DC(void) {
+}
+
+extern "C" void func_80022638(void) {
+}
+
+extern "C" void func_800226C0(void) {
+}
+
+extern "C" void func_80022908(void) {
+}
+
+extern "C" void func_80022910(void) {
+}
+
+extern "C" void func_80022948(void) {
+}
+
+extern "C" void func_80022B74(void) {
+}
+
+extern "C" void func_80022BA4(void) {
+}
+
+extern "C" void func_80022DE4(void) {
+}
+
+extern "C" void func_80022DE8(void) {
+}
+
+extern "C" void func_80022E24(void) {
+}
+
+extern "C" void func_80022EA4(void) {
+}
+
+extern "C" void func_80022F8C(void) {
+}
+
+extern "C" void func_80022F94(void) {
+}
+
+extern "C" void func_80022F98(void) {
+}
+
+extern "C" void func_80023140(void) {
+}
+
+extern "C" void func_800231CC(void) {
+}
+
+extern "C" void func_800231DC(void) {
+}
+
+extern "C" void func_80023290(void) {
+}
+
+extern "C" void func_800232F4(void) {
+}
+
+extern "C" void func_80023348(void) {
+}
+
+extern "C" void func_80023350(void) {
+}
+
+extern "C" void func_80023444(void) {
+}
+
+extern "C" void func_8002345C(void) {
+}
+
+extern "C" void func_80023498(void) {
+}
+
+extern "C" void func_80023514(void) {
+}
+
+extern "C" void func_8002352C(void) {
+}
+
+extern "C" void func_80023588(void) {
+}
+
+extern "C" void func_800236F4(void) {
+}
+
+extern "C" void func_80023864(void) {
+}
+
+extern "C" void func_800238BC(void) {
+}
+
+extern "C" void func_800238E4(void) {
+}
+
+extern "C" void func_800238F8(void) {
+}
+
+extern "C" void func_80023918(void) {
+}
+
+extern "C" void func_80023930(void) {
+}
+
+extern "C" void func_80023994(void) {
+}
+
+extern "C" void func_800239AC(void) {
+}
+
+extern "C" void func_800239D0(void) {
+}
+
+extern "C" void func_800239E8(void) {
+}
+
+extern "C" void func_80023A08(void) {
+}
+
+extern "C" void func_80023AD4(void) {
+}
+
+extern "C" void func_80023B98(void) {
+}
+
+extern "C" void func_80023C0C(void) {
+}
+
+extern "C" void func_80023C8C(void) {
+}
+
+extern "C" void func_80023D5C(void) {
+}
+
+extern "C" void func_80023DE4(void) {
+}
+
+extern "C" void func_80023E24(void) {
+}
+
+extern "C" void func_80023E64(void) {
+}
+
+extern "C" void func_80023EAC(void) {
+}
+
+extern "C" void func_80023ED0(void) {
+}
+
+extern "C" void func_80023EF0(void) {
+}
+
+extern "C" void func_80023F24(void) {
+}
+
+extern "C" void func_80023F48(void) {
+}
+
+extern "C" void func_80023FC4(void) {
+}
+
+extern "C" void func_80023FF8(void) {
+}
+
+extern "C" void func_8002401C(void) {
+}
+
+extern "C" void func_80024074(void) {
+}
+
+extern "C" void func_80024108(void) {
+}
+
+extern "C" void func_80024140(void) {
+}
+
+extern "C" void func_800241B8(void) {
+}
+
+extern "C" void func_800242DC(void) {
+}
+
+extern "C" void func_80024390(void) {
+}
+
+extern "C" void func_800243C0(void) {
+}
+
+extern "C" void func_800243D4(void) {
+}
+
+extern "C" void func_8002453C(void) {
+}
+
+extern "C" void func_800246E0(void) {
+}
+
+extern "C" void func_80024704(void) {
+}
+
+extern "C" void func_800247A4(void) {
+}
+
+extern "C" void func_800247C0(void) {
+}
+
+extern "C" void func_800247F4(void) {
+}
+
+extern "C" void func_80024894(void) {
+}
+
+extern "C" void func_800248B0(void) {
+}
+
+extern "C" void func_800248E4(void) {
+}
+
+extern "C" void func_80024920(void) {
+}
+
+extern "C" void func_800249C8(void) {
+}
+
+extern "C" void func_80024A90(void) {
+}
+
+extern "C" void func_80024AAC(void) {
+}
+
+extern "C" void func_80024B2C(void) {
+}
+
+extern "C" void func_80024B48(void) {
+}
+
+extern "C" void func_80024B88(void) {
+}
+
+extern "C" void func_80024BE4(void) {
+}
+
+extern "C" void func_80024C58(void) {
+}
+
+extern "C" void func_80024C60(void) {
+}
+
+extern "C" void func_80024D08(void) {
+}
+
+extern "C" void func_80024D2C(void) {
+}
+
+extern "C" void func_80024D78(void) {
+}
+
+extern "C" void func_80024E54(void) {
+}
+
+extern "C" void func_80024EAC(void) {
+}
+
+extern "C" void func_80024EF4(void) {
+}
+
+extern "C" void func_80024F20(void) {
+}
+
+extern "C" void func_80024F54(void) {
+}
+
+extern "C" void func_80024F88(void) {
+}
+
+extern "C" void func_80024FEC(void) {
+}
+
+extern "C" void func_80025024(void) {
+}
+
+extern "C" void func_80025058(void) {
+}
+
+extern "C" void func_80025060(void) {
+}
+
+extern "C" void func_80025078(void) {
+}
+
+extern "C" void func_800251F4(void) {
+}
+
+extern "C" void func_80025248(void) {
+}
+
+extern "C" void func_80025280(void) {
+}
+
+extern "C" void func_80025318(void) {
+}
+
+extern "C" void func_8002534C(void) {
+}
+
+extern "C" void func_80025350(void) {
+}
+
+extern "C" void func_800253CC(void) {
+}
+
+extern "C" void func_800253D0(void) {
+}
+
+extern "C" void func_8002540C(void) {
+}
+
+extern "C" void func_80025444(void) {
+}
+
+extern "C" void func_8002548C(void) {
+}
+
+extern "C" void func_800254A0(void) {
+}
+
+extern "C" void func_800254B4(void) {
+}
+
+extern "C" void func_80025554(void) {
+}
+
+extern "C" void func_800255F0(void) {
+}
+
+extern "C" void func_80025600(void) {
+}
+
+extern "C" void func_80025628(void) {
+}
+
+extern "C" void func_80025674(void) {
+}
+
+extern "C" void func_800256B4(void) {
+}
+
+extern "C" void func_800256D0(void) {
+}
+
+extern "C" void func_8002590C(void) {
+}
+
+extern "C" void func_80025A14(void) {
+}
+
+extern "C" void func_80025A24(void) {
+}
+
+extern "C" void func_80025A90(void) {
+}
+
+extern "C" void func_80025B84(void) {
+}
+
+extern "C" void func_80025BC4(void) {
+}
+
+extern "C" void func_80025BD4(void) {
+}
+
+extern "C" void func_80025BF8(void) {
+}
+
+extern "C" void func_80025C40(void) {
+}
+
+extern "C" void func_80025C44(void) {
+}
+
+extern "C" void func_80025C74(void) {
+}
+
+extern "C" void func_80025C98(void) {
+}
+
+extern "C" void func_80025CCC(void) {
+}
+
+extern "C" void func_80025D24(void) {
+}
+
+extern "C" void func_80025D5C(void) {
+}
+
+extern "C" void func_80025D80(void) {
+}
+
+extern "C" void func_80025DB8(void) {
+}
+
+extern "C" void func_80025DDC(void) {
+}
+
+extern "C" void func_80025E24(void) {
+}
+
+extern "C" void func_80025EA4(void) {
+}
+
+extern "C" void func_80025EE8(void) {
+}
+
+extern "C" void func_80025F38(void) {
+}
+
+extern "C" void func_80025F3C(void) {
+}
+
+extern "C" void func_80025F74(void) {
+}
+
+extern "C" void func_80025FB4(void) {
+}
+
+extern "C" void func_80025FFC(void) {
+}
+
+extern "C" void func_80026040(void) {
+}
+
+extern "C" void func_800260B0(void) {
+}
+
+extern "C" void func_800260E0(void) {
+}
+
+extern "C" void func_80026110(void) {
+}
+
+extern "C" void func_80026138(void) {
+}
+
+extern "C" void func_800261F4(void) {
+}
+
+extern "C" void func_8002620C(void) {
+}
+
+extern "C" void func_8002622C(void) {
+}
+
+extern "C" void func_800262A4(void) {
+}
+
+extern "C" void func_8002635C(void) {
+}
+
+extern "C" void func_80026480(void) {
+}
+
+extern "C" void func_800264D4(void) {
+}
+
+extern "C" void func_80026500(void) {
+}
+
+extern "C" void func_8002652C(void) {
+}
+
+extern "C" void func_80026560(void) {
+}
+
+extern "C" void func_80026594(void) {
+}
+
+extern "C" void func_800265F8(void) {
+}
+
+extern "C" void func_80026668(void) {
+}
+
+extern "C" void func_80026694(void) {
+}
+
+extern "C" void func_800266D0(void) {
+}
+
+extern "C" void func_80026708(void) {
+}
+
+extern "C" void func_80026780(void) {
+}
+
+extern "C" void func_800267D4(void) {
+}
+
+extern "C" void func_80026824(void) {
+}
+
+extern "C" void func_80026840(void) {
+}
+
+extern "C" void func_800268B0(void) {
+}
+
+extern "C" void func_80026900(void) {
+}
+
+extern "C" void func_80026950(void) {
+}
+
+extern "C" void func_80026984(void) {
+}
+
+extern "C" void func_800269A0(void) {
+}
+
+extern "C" void func_800269B4(void) {
+}
+
+extern "C" void func_80026A38(void) {
+}
+
+extern "C" void func_80026AC8(void) {
+}
+
+extern "C" void func_80026B10(void) {
+}
+
+extern "C" void func_80026B88(void) {
+}
+
+extern "C" void func_80026BC8(void) {
+}
+
+extern "C" void func_80026BF0(void) {
+}
+
+extern "C" void func_80026C64(void) {
+}
+
+extern "C" void func_80026C74(void) {
+}
+
+extern "C" void func_80026CCC(void) {
+}
+
+extern "C" void func_80026CF8(void) {
+}
+
+extern "C" void func_80026D48(void) {
+}
+
+extern "C" void func_80026D84(void) {
+}
+
+extern "C" void func_800271B0(void) {
+}
+
+extern "C" void func_800274AC(void) {
+}
+
+extern "C" void func_800275A0(void) {
+}
+
+extern "C" void func_800275B4(void) {
+}
+
+extern "C" void func_800275BC(void) {
+}
+
+extern "C" void func_80027664(void) {
+}
+
+extern "C" void func_80027674(void) {
+}
+
+extern "C" void func_800276A0(void) {
+}
+
+extern "C" void func_800276C8(void) {
+}
+
+extern "C" void func_80027760(void) {
+}
+
+extern "C" void func_80027888(void) {
+}
+
+extern "C" void func_800278AC(void) {
+}
+
+extern "C" void func_800278DC(void) {
+}
+
+extern "C" void func_800278E8(void) {
+}
+
+extern "C" void func_800278EC(void) {
+}
+
+extern "C" void func_800279EC(void) {
+}
+
+extern "C" void func_80027A10(void) {
+}
+
+extern "C" void func_80027A6C(void) {
+}
+
+extern "C" void func_80027B1C(void) {
+}
+
+extern "C" void func_80027BC4(void) {
+}
+
+extern "C" void func_80027BD4(void) {
+}
+
+extern "C" void func_80027BF0(void) {
+}
+
+extern "C" void func_80027BFC(void) {
+}
+
+extern "C" void func_80027C74(void) {
+}
+
+extern "C" void func_80027D5C(void) {
+}
+
+extern "C" void func_80027DB0(void) {
+}
+
+extern "C" void func_80027DCC(void) {
+}
+
+extern "C" void func_80027E84(void) {
+}
+
+extern "C" void func_80027E94(void) {
+}
+
+extern "C" void func_80027F1C(void) {
+}
+
+extern "C" void func_80027F40(void) {
+}
+
+extern "C" void func_80027F94(void) {
+}
+
+extern "C" void func_80027FA0(void) {
+}
+
+extern "C" void func_80027FD4(void) {
+}
+
+extern "C" void func_80027FDC(void) {
+}
+
+extern "C" void func_80027FFC(void) {
+}
+
+extern "C" void func_80028008(void) {
+}
+
+extern "C" void func_8002801C(void) {
+}
+
+extern "C" void func_80028074(void) {
+}
+
+extern "C" void func_80028090(void) {
+}
+
+extern "C" void func_80028198(void) {
+}
+
+extern "C" void func_800281EC(void) {
+}
+
+extern "C" void func_80028200(void) {
+}
+
+extern "C" void func_8002822C(void) {
+}
+
+extern "C" void func_80028284(void) {
+}
+
+extern "C" void func_80028294(void) {
+}
+
+extern "C" void func_8002842C(void) {
+}
+
+extern "C" void func_800284D0(void) {
+}
+
+extern "C" void func_800284E4(void) {
+}
+
+extern "C" void func_8002854C(void) {
+}
+
+extern "C" void func_800285AC(void) {
+}
+
+extern "C" void func_8002863C(void) {
+}
+
+extern "C" void func_8002864C(void) {
+}
+
+extern "C" void func_80028668(void) {
+}
+
+extern "C" void func_80028740(void) {
+}
+
+extern "C" void func_80028770(void) {
+}
+
+extern "C" void func_80028830(void) {
+}
+
+extern "C" void func_80028920(void) {
+}
+
+extern "C" void func_80028928(void) {
+}
+
+extern "C" void func_8002892C(void) {
+}
+
+extern "C" void func_80028960(void) {
+}
+
+extern "C" void func_80028964(void) {
+}
+
+extern "C" void func_80028988(void) {
+}
+
+extern "C" void func_800289A4(void) {
+}
+
+extern "C" void func_80028A34(void) {
+}
+
+extern "C" void func_80028A8C(void) {
+}
+
+extern "C" void func_80028AB0(void) {
+}
+
+extern "C" void func_80028AB8(void) {
+}
+
+extern "C" void func_80028AC0(void) {
+}
+
+extern "C" void func_80028AC8(void) {
+}
+
+extern "C" void func_80028AD0(void) {
+}
+
+extern "C" void func_80028AFC(void) {
+}
+
+extern "C" void func_80028BD0(void) {
+}
+
+extern "C" void func_80028C18(void) {
+}
+
+extern "C" void func_80028C54(void) {
+}
+
+extern "C" void func_80028CB8(void) {
+}
+
+extern "C" void func_80028CF8(void) {
+}
+
+extern "C" void func_80028D0C(void) {
+}
+
+extern "C" void func_80028D70(void) {
+}
+
+extern "C" void func_80028D90(void) {
+}
+
+extern "C" void func_80028DA4(void) {
+}
+
+extern "C" void func_80028DD0(void) {
+}
+
+extern "C" void func_80028E00(void) {
+}
+
+extern "C" void func_80028E30(void) {
+}
+
+extern "C" void func_80028E5C(void) {
+}
+
+extern "C" void func_80028E90(void) {
+}
+
+extern "C" void func_80028EA0(void) {
+}
+
+extern "C" void func_80028EB4(void) {
+}
+
+extern "C" void func_80028EDC(void) {
+}
+
+extern "C" void func_80028F10(void) {
+}
+
+extern "C" void func_80028F14(void) {
+}
+
+extern "C" void func_80028F34(void) {
+}
+
+extern "C" void func_80028F40(void) {
+}
+
+extern "C" void func_80028F50(void) {
+}
+
+extern "C" void func_800290D4(void) {
+}
+
+extern "C" void func_800291C8(void) {
+}
+
+extern "C" void func_800292EC(void) {
+}
+
+extern "C" void func_80029414(void) {
+}
+
+extern "C" void func_8002941C(void) {
+}
+
+extern "C" void func_80029478(void) {
+}
+
+extern "C" void func_80029484(void) {
+}
+
+extern "C" void func_80029504(void) {
+}
+
+extern "C" void func_80029558(void) {
+}
+
+extern "C" void func_800295DC(void) {
+}
+
+extern "C" void func_800295E4(void) {
+}
+
+extern "C" void func_80029614(void) {
+}
+
+extern "C" void func_80029638(void) {
+}
+
+extern "C" void func_80029674(void) {
+}
+
+extern "C" void func_80029678(void) {
+}
+
+extern "C" void func_8002967C(void) {
+}
+
+extern "C" void func_800296F4(void) {
+}
+
+extern "C" void func_800296F8(void) {
+}
+
+extern "C" void func_800296FC(void) {
+}
+
+extern "C" void func_80029790(void) {
+}
+
+extern "C" void func_80029794(void) {
+}
+
+extern "C" void func_80029798(void) {
+}
+
+extern "C" void func_800297F4(void) {
+}
+
+extern "C" void func_800297F8(void) {
+}
+
+extern "C" void func_800297FC(void) {
+}
+
+extern "C" void func_80029888(void) {
+}
+
+extern "C" void func_8002988C(void) {
+}
+
+extern "C" void func_800298AC(void) {
+}
+
+extern "C" void func_80029964(void) {
+}
+
+extern "C" void func_800299AC(void) {
+}
+
+extern "C" void func_80029A2C(void) {
+}
+
+extern "C" void func_80029B14(void) {
+}
+
+extern "C" void func_80029B58(void) {
+}
+
+extern "C" void func_80029CBC(void) {
+}
+
+extern "C" void func_80029D18(void) {
+}
+
+extern "C" void func_80029D2C(void) {
+}
+
+extern "C" void func_80029D70(void) {
+}
+
+extern "C" void func_80029EA4(void) {
+}
+
+extern "C" void func_80029F1C(void) {
+}
+
+extern "C" void func_8002A024(void) {
+}
+
+extern "C" void func_8002A058(void) {
+}
+
+extern "C" void func_8002A0CC(void) {
+}
+
+extern "C" void func_8002A17C(void) {
+}
+
+extern "C" void func_8002A1B4(void) {
+}
+
+extern "C" void func_8002A1BC(void) {
+}
+
+extern "C" void func_8002A1CC(void) {
+}
+
+extern "C" void func_8002A1E0(void) {
+}
+
+extern "C" void func_8002A21C(void) {
+}
+
+extern "C" void func_8002A24C(void) {
+}
+
+extern "C" void func_8002A250(void) {
+}
+
+extern "C" void func_8002A268(void) {
+}
+
+extern "C" void func_8002A294(void) {
+}
+
+extern "C" void func_8002A2C4(void) {
+}
+
+extern "C" void func_8002A2D4(void) {
+}
+
+extern "C" void func_8002A334(void) {
+}
+
+extern "C" void func_8002A338(void) {
+}
+
+extern "C" void func_8002A350(void) {
+}
+
+extern "C" void func_8002A380(void) {
+}
+
+extern "C" void func_8002A384(void) {
+}
+
+extern "C" void func_8002A398(void) {
+}
+
+extern "C" void func_8002A454(void) {
+}
+
+extern "C" void func_8002A458(void) {
+}
+
+extern "C" void func_8002A470(void) {
+}
+
+extern "C" void func_8002A4A4(void) {
+}
+
+extern "C" void func_8002A4CC(void) {
+}
+
+extern "C" void func_8002A4D0(void) {
+}
+
+extern "C" void func_8002A4E8(void) {
+}
+
+extern "C" void func_8002A57C(void) {
+}
+
+extern "C" void func_8002A5E0(void) {
+}
+
+extern "C" void func_8002A5E4(void) {
+}
+
+extern "C" void func_8002A5FC(void) {
+}
+
+extern "C" void func_8002A62C(void) {
+}
+
+extern "C" void func_8002A630(void) {
+}
+
+extern "C" void func_8002A6A0(void) {
+}
+
+extern "C" void func_8002A6A4(void) {
+}
+
+extern "C" void func_8002A6C8(void) {
+}
+
+extern "C" void func_8002A6CC(void) {
+}
+
+extern "C" void func_8002A6E4(void) {
+}
+
+extern "C" void func_8002A6F4(void) {
+}
+
+extern "C" void func_8002A7B8(void) {
+}
+
+extern "C" void func_8002A7BC(void) {
+}
+
+extern "C" void func_8002A7D4(void) {
+}
+
+extern "C" void func_8002A808(void) {
+}
+
+extern "C" void func_8002A81C(void) {
+}
+
+extern "C" void func_8002A874(void) {
+}
+
+extern "C" void func_8002A878(void) {
+}
+
+extern "C" void func_8002A884(void) {
+}
+
+extern "C" void func_8002A8B4(void) {
+}
+
+extern "C" void func_8002A8D8(void) {
+}

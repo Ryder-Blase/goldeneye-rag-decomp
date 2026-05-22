@@ -20,10 +20,10 @@ src/rtc.cpp:
 	.text       start:0x800136DC end:0x8001371C
 
 src/system/drivecheck.cpp:
-	.text       start:0x8001371C end:0x8001F468
+	.text       start:0x8001371C end:0x8002A96C
 
 asm/main/main_after.s:
-	.text       start:0x8001F468 end:0x8003EC20
+	.text       start:0x8002A96C end:0x8003EC20
 	.data0      start:0x8003EC20 end:0x8003EC40
 	.data1      start:0x8003EC40 end:0x8003FD00
 	.data2      start:0x8003FD00 end:0x80044C80
