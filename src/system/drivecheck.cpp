@@ -2905,3 +2905,280 @@ extern "C" void func_8002A8B4(void) {
 
 extern "C" void func_8002A8D8(void) {
 }
+
+extern "C" void func_8002A96C(void) {
+}
+
+extern "C" void func_8002A9B8(void) {
+}
+
+extern "C" void func_8002AA00(void) {
+}
+
+extern "C" void func_8002AC9C(void) {
+}
+
+extern "C" void func_8002AD40(void) {
+}
+
+extern "C" void func_8002AD74(void) {
+}
+
+extern "C" void func_8002AD94(void) {
+}
+
+extern "C" void func_8002AE64(void) {
+}
+
+extern "C" void func_8002AE90(void) {
+}
+
+extern "C" void func_8002B090(void) {
+}
+
+extern "C" void func_8002B104(void) {
+}
+
+extern "C" void func_8002B274(void) {
+}
+
+extern "C" void func_8002B278(void) {
+}
+
+extern "C" void func_8002B2AC(void) {
+}
+
+extern "C" void func_8002B2E0(void) {
+}
+
+extern "C" void func_8002B564(void) {
+}
+
+extern "C" void func_8002B568(void) {
+}
+
+extern "C" void func_8002B59C(void) {
+}
+
+extern "C" void func_8002B5D0(void) {
+}
+
+extern "C" void func_8002B680(void) {
+}
+
+extern "C" void func_8002B808(void) {
+}
+
+extern "C" void func_8002B81C(void) {
+}
+
+extern "C" void func_8002B8B8(void) {
+}
+
+extern "C" void func_8002B96C(void) {
+}
+
+extern "C" void func_8002B990(void) {
+}
+
+extern "C" void func_8002B9D0(void) {
+}
+
+extern "C" void func_8002B9D8(void) {
+}
+
+extern "C" void func_8002B9E0(void) {
+}
+
+extern "C" void func_8002B9E8(void) {
+}
+
+extern "C" void func_8002BA28(void) {
+}
+
+extern "C" void func_8002BA4C(void) {
+}
+
+extern "C" void func_8002BA74(void) {
+}
+
+extern "C" void func_8002BADC(void) {
+}
+
+extern "C" void func_8002BB0C(void) {
+}
+
+extern "C" void func_8002BB84(void) {
+}
+
+extern "C" void func_8002BB8C(void) {
+}
+
+extern "C" void func_8002BB94(void) {
+}
+
+extern "C" void func_8002BB98(void) {
+}
+
+extern "C" void func_8002BDA8(void) {
+}
+
+extern "C" void func_8002BE2C(void) {
+}
+
+extern "C" void func_8002BE34(void) {
+}
+
+extern "C" void func_8002BE3C(void) {
+}
+
+extern "C" void func_8002BE40(void) {
+}
+
+extern "C" void func_8002C030(void) {
+}
+
+extern "C" void func_8002C05C(void) {
+}
+
+extern "C" void func_8002C070(void) {
+}
+
+extern "C" void func_8002C098(void) {
+}
+
+extern "C" void func_8002C0AC(void) {
+}
+
+extern "C" void func_8002C43C(void) {
+}
+
+extern "C" void func_8002C45C(void) {
+}
+
+extern "C" void func_8002C4AC(void) {
+}
+
+extern "C" void func_8002C4B4(void) {
+}
+
+extern "C" void func_8002C4BC(void) {
+}
+
+extern "C" void func_8002C4C0(void) {
+}
+
+extern "C" void func_8002C4E0(void) {
+}
+
+extern "C" void func_8002C52C(void) {
+}
+
+extern "C" void func_8002C53C(void) {
+}
+
+extern "C" void func_8002C5C8(void) {
+}
+
+extern "C" void func_8002C5D0(void) {
+}
+
+extern "C" void func_8002C5D8(void) {
+}
+
+extern "C" void func_8002C5DC(void) {
+}
+
+extern "C" void func_8002C6D0(void) {
+}
+
+extern "C" void func_8002C6E4(void) {
+}
+
+extern "C" void func_8002C760(void) {
+}
+
+extern "C" void func_8002C768(void) {
+}
+
+extern "C" void func_8002C770(void) {
+}
+
+extern "C" void func_8002C774(void) {
+}
+
+extern "C" void func_8002C80C(void) {
+}
+
+extern "C" void func_8002C824(void) {
+}
+
+extern "C" void func_8002C838(void) {
+}
+
+extern "C" void func_8002C84C(void) {
+}
+
+extern "C" void func_8002C864(void) {
+}
+
+extern "C" void func_8002C870(void) {
+}
+
+extern "C" void func_8002C88C(void) {
+}
+
+extern "C" void func_8002C8A0(void) {
+}
+
+extern "C" void func_8002C914(void) {
+}
+
+extern "C" void func_8002CAA0(void) {
+}
+
+extern "C" void func_8002CB34(void) {
+}
+
+extern "C" void func_8002CBE8(void) {
+}
+
+extern "C" void func_8002CBEC(void) {
+}
+
+extern "C" void func_8002CC34(void) {
+}
+
+extern "C" void func_8002CC38(void) {
+}
+
+extern "C" void func_8002CC44(void) {
+}
+
+extern "C" void func_8002CC74(void) {
+}
+
+extern "C" void func_8002CCBC(void) {
+}
+
+extern "C" void func_8002CCC0(void) {
+}
+
+extern "C" void func_8002CCCC(void) {
+}
+
+extern "C" void func_8002CCFC(void) {
+}
+
+extern "C" void func_8002CF98(void) {
+}
+
+extern "C" void func_8002CF9C(void) {
+}
+
+extern "C" void func_8002CFC0(void) {
+}
+
+extern "C" int func_8002DBC8(void) {
+	return 0;
+}
